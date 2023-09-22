@@ -1,0 +1,59 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+require_relative '../node_modules/react-native-unimodules/cocoapods'
+
+platform :ios, '11.0'
+
+project 'InstaAccess',
+        'Flashclub.Debug' => :debug,
+        'Flashclub.Release' => :release, 
+        'Prod.Debug' => :debug,
+        'Prod.Release' => :release
+
+target 'InstaAccess' do
+  use_unimodules!
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+ 
+
+  # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+  pod 'Firebase/Messaging'
+
+  #pod 'react-native-apple-authentication', :path => '../node_modules/@invertase/react-native-apple-authentication'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'RNAppleAuthentication', :path => '../node_modules/@invertase/react-native-apple-authentication'
+
+  target 'InstaAccessTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+# use_flipper!({ 'Flipper' => '0.79.1' })
+  # post_install do |installer|
+  #flipper_post_install(installer)
+  # end
+end
+
+target 'InstaAccess-tvOS' do
+  # Pods for InstaAccess-tvOS
+
+  target 'InstaAccess-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

@@ -1,0 +1,28 @@
+-v1.58
+==========>
+- Replaced new web url in well-being page
+- Preferred name displaying in required screens
+
+-v1.55
+============>
+- LMS option disabled
+- Flashbook option enabled
+- FastImage package used in flashclubRewordView
+
+-v1.54
+============>
+- LMS new functionality
+- Rewards new types
+
+-v1.53
+=============>
+- Add messages bottom border
+- Add user profile picture on appbar in chat screen
+- Change update profile ui design
+- Show only who chatted with user in message list page
+
+- v1.52
+============>
+- Add item bottom border in chat list
+- New feature Office maintenance
+- Change Business directory UI

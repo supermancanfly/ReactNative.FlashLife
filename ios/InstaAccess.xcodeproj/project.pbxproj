@@ -1,0 +1,1775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* InstaAccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InstaAccessTests.m */; };
+		0392E63450B44ED8A298363E /* Radomir Tinkov - Gilroy-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9627E6A5DBD94E229748B2CC /* Radomir Tinkov - Gilroy-UltraLight.otf */; };
+		11FEB18D24884325AFC2ECAF /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 662917D068C447D8A872D6BD /* CircularStd-Bold.otf */; };
+		135695F758D243EA9BAF45B5 /* Radomir Tinkov - Gilroy-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 591D0D8F24AA4541A6D586C4 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1E31C42502BC42F88EC9E1C0 /* Radomir Tinkov - Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 719B7F32629F47EB873B4E0E /* Radomir Tinkov - Gilroy-Medium.otf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* InstaAccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InstaAccessTests.m */; };
+		4490603F75814873AD01081C /* Radomir Tinkov - Gilroy-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 067ED648175B4E3F99105146 /* Radomir Tinkov - Gilroy-Thin.otf */; };
+		4AFBC99F7D414B40A5063541 /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1731B001416143D288C8D0BC /* CircularStd-BlackItalic.otf */; };
+		4EC4AF0B37054432AF83F0B0 /* Radomir Tinkov - Gilroy-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77CD727D46F3486DB437BA96 /* Radomir Tinkov - Gilroy-BoldItalic.otf */; };
+		5541BFEF995A482EACAA0007 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F482A75F988497696DA3941 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */; };
+		5B1D9D2BCD0D4DB294C87395 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97F6B33A20C049E49BEB3312 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */; };
+		69BF4581EEAA488482E757B4 /* Radomir Tinkov - Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23629491D6564254A3FE84CE /* Radomir Tinkov - Gilroy-ExtraBold.otf */; };
+		6AAD4BBFC5AC4CBA8518D3F1 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278DC99E3ABA47AC87134EC1 /* CircularStd-Black.otf */; };
+		6E083F11C9F14656A3BB1F83 /* Radomir Tinkov - Gilroy-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56B3FE80CF754EFF8F638DF0 /* Radomir Tinkov - Gilroy-SemiBold.otf */; };
+		7E66BFD37C284BBC8731622F /* Radomir Tinkov - Gilroy-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAF5A64D698D40608BC47638 /* Radomir Tinkov - Gilroy-Regular.otf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8504E6192D3037A2EDE472B4 /* libPods-InstaAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B9F5A77A1BF3F4A3EF2611 /* libPods-InstaAccess.a */; };
+		899109D00503BAA0692BC21B /* libPods-InstaAccess-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 341877BA57B05682E673169E /* libPods-InstaAccess-tvOSTests.a */; };
+		8AB0A0F630C340CDB5998092 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3007A0E155BD44DAB4D10037 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */; };
+		93C18A6E5A6E4BA0B6E34225 /* Radomir Tinkov - Gilroy-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC74DEB995BB43528FE8F2E7 /* Radomir Tinkov - Gilroy-Bold.otf */; };
+		9900B75F89534498B9436380 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE32D62261D403BB4041017 /* CircularStd-Book.otf */; };
+		9BDF3C14C1BF44E19C5A4C80 /* CircularStd-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1231AD47ABEB4530A9A3AA3E /* CircularStd-BoldItalic.otf */; };
+		9C3E927F7C4DF99C1619FE21 /* libPods-InstaAccess-InstaAccessTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 431CD008D45F79296501BF0B /* libPods-InstaAccess-InstaAccessTests.a */; };
+		9EA8C4D8AF6346DF68FD83B6 /* libPods-InstaAccess-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B097AEBC733336B05C0C0443 /* libPods-InstaAccess-tvOS.a */; };
+		9F0E36E4A50D4185B388DB04 /* Radomir Tinkov - Gilroy-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F4346EAAE86410094222C13 /* Radomir Tinkov - Gilroy-Heavy.otf */; };
+		A47745EEDE554B0B89DE5982 /* Radomir Tinkov - Gilroy-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB8D75BC526A4F9CB423B890 /* Radomir Tinkov - Gilroy-BlackItalic.otf */; };
+		AE7F26F8220D458B98810DBC /* Radomir Tinkov - Gilroy-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 876827E09347460DB8B55FED /* Radomir Tinkov - Gilroy-LightItalic.otf */; };
+		AF2F95F7B9A842F69AA6C416 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D6289BC141E445F894FE68A /* CircularStd-Medium.otf */; };
+		C30D8A12594749FDB1C8EA7B /* Radomir Tinkov - Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D8EF14DF783B4102809C1A62 /* Radomir Tinkov - Gilroy-Light.otf */; };
+		CF74157A27644163AB9CF26A /* Radomir Tinkov - Gilroy-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E99B067D623D4532BEEA7403 /* Radomir Tinkov - Gilroy-RegularItalic.otf */; };
+		D90924C9EE4B45159B94B8FF /* Radomir Tinkov - Gilroy-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DDCCBB169A648A6B1E7DC6A /* Radomir Tinkov - Gilroy-ThinItalic.otf */; };
+		DE7FCA0C4EC1470989A53D34 /* Radomir Tinkov - Gilroy-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 225EEADA12B648F2993CF794 /* Radomir Tinkov - Gilroy-Black.otf */; };
+		E71D967FA20B40B9AB8BF9D4 /* CircularStd-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2D2473AF18425884F28276 /* CircularStd-MediumItalic.otf */; };
+		E7D31D8F0D8C442685054456 /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B036EAC079E2469CAF71188C /* CircularStd-BookItalic.otf */; };
+		EEDA9DB4762948D5837DDD01 /* Radomir Tinkov - Gilroy-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2827B00B94942D7B7976809 /* Radomir Tinkov - Gilroy-MediumItalic.otf */; };
+		FA3D24F727158C95001F7D69 /* Symbolication.js in Resources */ = {isa = PBXBuildFile; fileRef = FA3D24F427158C94001F7D69 /* Symbolication.js */; };
+		FA74B061260A00FB007344D6 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = FA74B060260A00FB007344D6 /* fonts */; };
+		FA958BF227D23E81005AFFD4 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
+		FADE982326FAFC30001FA7C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FADE982226FAFC30001FA7C1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = InstaAccess;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "InstaAccess-tvOS";
+		};
+		FA520D3E26F89AAB002677D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF50E6826D4C0E20097F85E /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0CF68AC11AF0540F00FF9E5C;
+			remoteInfo = RNSVG;
+		};
+		FAF50E6F26D4C0E20097F85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF50E6826D4C0E20097F85E /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94DDAC5C1F3D024300EED511;
+			remoteInfo = "RNSVG-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* InstaAccessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaAccessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* InstaAccessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaAccessTests.m; sourceTree = "<group>"; };
+		067ED648175B4E3F99105146 /* Radomir Tinkov - Gilroy-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Thin.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Thin.otf"; sourceTree = "<group>"; };
+		07E5D1F3A4064EC89B079049 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		099731ECE298FE00369A6FDB /* Pods-InstaAccess-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOSTests/Pods-InstaAccess-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A2A4E3A4BBE49528E4865A8 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		1231AD47ABEB4530A9A3AA3E /* CircularStd-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-BoldItalic.otf"; path = "../assets/fonts/CircularStd-BoldItalic.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Instaccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instaccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = InstaAccess/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = InstaAccess/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = InstaAccess/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = InstaAccess/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = InstaAccess/main.m; sourceTree = "<group>"; };
+		1731B001416143D288C8D0BC /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-BlackItalic.otf"; path = "../assets/fonts/CircularStd-BlackItalic.otf"; sourceTree = "<group>"; };
+		1B555624FF80BA81A8BA03CC /* Pods-InstaAccess-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOS/Pods-InstaAccess-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1C918DB347D24B82988624FE /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		209EA7480E1095BECB96EAAE /* Pods-InstaAccess-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOSTests/Pods-InstaAccess-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		225EEADA12B648F2993CF794 /* Radomir Tinkov - Gilroy-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Black.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Black.otf"; sourceTree = "<group>"; };
+		23629491D6564254A3FE84CE /* Radomir Tinkov - Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-ExtraBold.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		278DC99E3ABA47AC87134EC1 /* CircularStd-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Black.otf"; path = "../assets/fonts/CircularStd-Black.otf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* InstaAccess-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InstaAccess-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* InstaAccess-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InstaAccess-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3007A0E155BD44DAB4D10037 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-SemiBoldItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		341877BA57B05682E673169E /* libPods-InstaAccess-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaAccess-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F0CC8E605704D040926549 /* Pods-InstaAccess-tvOS.flashclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOS.flashclub.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOS/Pods-InstaAccess-tvOS.flashclub.release.xcconfig"; sourceTree = "<group>"; };
+		3CEED2FA3D54489EA67DB08D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		40C9E3001AEF4556AE1214C6 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		431CD008D45F79296501BF0B /* libPods-InstaAccess-InstaAccessTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaAccess-InstaAccessTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6AD0770DC942D1BD867626 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		56B3FE80CF754EFF8F638DF0 /* Radomir Tinkov - Gilroy-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-SemiBold.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-SemiBold.otf"; sourceTree = "<group>"; };
+		591D0D8F24AA4541A6D586C4 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-HeavyItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-HeavyItalic.otf"; sourceTree = "<group>"; };
+		5F4346EAAE86410094222C13 /* Radomir Tinkov - Gilroy-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Heavy.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Heavy.otf"; sourceTree = "<group>"; };
+		63680781B827F52B5D24E3D4 /* Pods-InstaAccess-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOS.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOS/Pods-InstaAccess-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		662917D068C447D8A872D6BD /* CircularStd-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Bold.otf"; path = "../assets/fonts/CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		6AE32D62261D403BB4041017 /* CircularStd-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Book.otf"; path = "../assets/fonts/CircularStd-Book.otf"; sourceTree = "<group>"; };
+		719B7F32629F47EB873B4E0E /* Radomir Tinkov - Gilroy-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Medium.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		77CD727D46F3486DB437BA96 /* Radomir Tinkov - Gilroy-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-BoldItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-BoldItalic.otf"; sourceTree = "<group>"; };
+		79B645B9BE234F82BD8D059C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		79EC47B6AA6DCEFACA7DA287 /* Pods-InstaAccess-tvOSTests.flashclub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOSTests.flashclub.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOSTests/Pods-InstaAccess-tvOSTests.flashclub.debug.xcconfig"; sourceTree = "<group>"; };
+		7B313FF4E5F54C3E9DE37AF7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		7F482A75F988497696DA3941 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-ExtraBoldItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		7FC7882C28FC538EA169277E /* Pods-InstaAccess-tvOSTests.flashclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOSTests.flashclub.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOSTests/Pods-InstaAccess-tvOSTests.flashclub.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = InstaAccess/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876827E09347460DB8B55FED /* Radomir Tinkov - Gilroy-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-LightItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-LightItalic.otf"; sourceTree = "<group>"; };
+		8C3A334C0696258743A7326E /* Pods-InstaAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess/Pods-InstaAccess.release.xcconfig"; sourceTree = "<group>"; };
+		8C5ED71FA2AC72B5C67BCAB8 /* Pods-InstaAccess-tvOS.flashclub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-tvOS.flashclub.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess-tvOS/Pods-InstaAccess-tvOS.flashclub.debug.xcconfig"; sourceTree = "<group>"; };
+		8CFED41B5BFE4997B76E3284 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		8D6289BC141E445F894FE68A /* CircularStd-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-Medium.otf"; path = "../assets/fonts/CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		8F2D2473AF18425884F28276 /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-MediumItalic.otf"; path = "../assets/fonts/CircularStd-MediumItalic.otf"; sourceTree = "<group>"; };
+		94D559A678E34E1A991B0C72 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		9627E6A5DBD94E229748B2CC /* Radomir Tinkov - Gilroy-UltraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-UltraLight.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-UltraLight.otf"; sourceTree = "<group>"; };
+		97D536D33F514AC3A4643A7B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		97F6B33A20C049E49BEB3312 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-UltraLightItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		9DDCCBB169A648A6B1E7DC6A /* Radomir Tinkov - Gilroy-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-ThinItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-ThinItalic.otf"; sourceTree = "<group>"; };
+		A04AB969A2524424A57B45BD /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		AC9A26EF01863353C20C5FC1 /* Pods-InstaAccess-InstaAccessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-InstaAccessTests.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess-InstaAccessTests/Pods-InstaAccess-InstaAccessTests.release.xcconfig"; sourceTree = "<group>"; };
+		B036EAC079E2469CAF71188C /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CircularStd-BookItalic.otf"; path = "../assets/fonts/CircularStd-BookItalic.otf"; sourceTree = "<group>"; };
+		B097AEBC733336B05C0C0443 /* libPods-InstaAccess-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaAccess-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D73B33ADDA9AC9E96ECC7A /* Pods-InstaAccess-InstaAccessTests.flashclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-InstaAccessTests.flashclub.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess-InstaAccessTests/Pods-InstaAccess-InstaAccessTests.flashclub.release.xcconfig"; sourceTree = "<group>"; };
+		BB8D75BC526A4F9CB423B890 /* Radomir Tinkov - Gilroy-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-BlackItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-BlackItalic.otf"; sourceTree = "<group>"; };
+		C4E0156EB6EF4BD0B448DCFD /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		C5B61C2F7E36C7EBC9646942 /* Pods-InstaAccess.flashclub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess.flashclub.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess/Pods-InstaAccess.flashclub.debug.xcconfig"; sourceTree = "<group>"; };
+		CAF5A64D698D40608BC47638 /* Radomir Tinkov - Gilroy-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Regular.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Regular.otf"; sourceTree = "<group>"; };
+		D85CA44E5AF7858E08523F4D /* Pods-InstaAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess/Pods-InstaAccess.debug.xcconfig"; sourceTree = "<group>"; };
+		D8EF14DF783B4102809C1A62 /* Radomir Tinkov - Gilroy-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Light.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Light.otf"; sourceTree = "<group>"; };
+		DDDBCA422CD24AFC914C9F83 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		DECB1B3646804C56866FE0A4 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		E180BFE985B84F5DB9657F60 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		E99B067D623D4532BEEA7403 /* Radomir Tinkov - Gilroy-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-RegularItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-RegularItalic.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EFA57B23688C16C361B999EA /* Pods-InstaAccess-InstaAccessTests.flashclub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-InstaAccessTests.flashclub.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess-InstaAccessTests/Pods-InstaAccess-InstaAccessTests.flashclub.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D3ED6A6027D1ADF74A0D20 /* Pods-InstaAccess-InstaAccessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess-InstaAccessTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaAccess-InstaAccessTests/Pods-InstaAccess-InstaAccessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2827B00B94942D7B7976809 /* Radomir Tinkov - Gilroy-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-MediumItalic.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-MediumItalic.otf"; sourceTree = "<group>"; };
+		F4B9F5A77A1BF3F4A3EF2611 /* libPods-InstaAccess.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaAccess.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1142632609EEE10014FF2B /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		FA1142642609EEE10014FF2B /* Radomir Tinkov - Gilroy-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-LightItalic.otf"; sourceTree = "<group>"; };
+		FA1142652609EEE10014FF2B /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA1142662609EEE10014FF2B /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		FA1142672609EEE10014FF2B /* Radomir Tinkov - Gilroy-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-SemiBold.otf"; sourceTree = "<group>"; };
+		FA1142682609EEE10014FF2B /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-MediumItalic.otf"; sourceTree = "<group>"; };
+		FA1142692609EEE10014FF2B /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		FA11426A2609EEE10014FF2B /* Radomir Tinkov - Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Light.otf"; sourceTree = "<group>"; };
+		FA11426B2609EEE10014FF2B /* Radomir Tinkov - Gilroy-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Black.otf"; sourceTree = "<group>"; };
+		FA11426C2609EEE20014FF2B /* Radomir Tinkov - Gilroy-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-RegularItalic.otf"; sourceTree = "<group>"; };
+		FA11426D2609EEE20014FF2B /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		FA11426E2609EEE20014FF2B /* Radomir Tinkov - Gilroy-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA11426F2609EEE20014FF2B /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		FA1142702609EEE20014FF2B /* CircularStd-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA1142712609EEE20014FF2B /* Radomir Tinkov - Gilroy-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ThinItalic.otf"; sourceTree = "<group>"; };
+		FA1142722609EEE20014FF2B /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		FA1142732609EEE20014FF2B /* Radomir Tinkov - Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		FA1142742609EEE20014FF2B /* Radomir Tinkov - Gilroy-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Bold.otf"; sourceTree = "<group>"; };
+		FA1142752609EEE20014FF2B /* Radomir Tinkov - Gilroy-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Heavy.otf"; sourceTree = "<group>"; };
+		FA1142762609EEE20014FF2B /* Radomir Tinkov - Gilroy-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Regular.otf"; sourceTree = "<group>"; };
+		FA1142772609EEE30014FF2B /* Radomir Tinkov - Gilroy-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Thin.otf"; sourceTree = "<group>"; };
+		FA1142782609EEE30014FF2B /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BookItalic.otf"; sourceTree = "<group>"; };
+		FA1142792609EEE30014FF2B /* Radomir Tinkov - Gilroy-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-HeavyItalic.otf"; sourceTree = "<group>"; };
+		FA11427A2609EEE30014FF2B /* Radomir Tinkov - Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		FA11427B2609EEE30014FF2B /* Radomir Tinkov - Gilroy-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA11427C2609EEE30014FF2B /* Radomir Tinkov - Gilroy-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-UltraLight.otf"; sourceTree = "<group>"; };
+		FA11427D2609EEE30014FF2B /* Radomir Tinkov - Gilroy-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-MediumItalic.otf"; sourceTree = "<group>"; };
+		FA11427E2609EEE30014FF2B /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
+		FA1B58612551222700FAFABD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA1B598A2551459700FAFABD /* Instaccess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Instaccess.entitlements; path = InstaAccess/Instaccess.entitlements; sourceTree = "<group>"; };
+		FA3D24EF27157926001F7D69 /* InstaAccessDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = InstaAccessDebug.entitlements; path = InstaAccess/InstaAccessDebug.entitlements; sourceTree = "<group>"; };
+		FA3D24F427158C94001F7D69 /* Symbolication.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Symbolication.js; sourceTree = "<group>"; };
+		FA3D24FA2715B787001F7D69 /* InstaAccessFlashclub.Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = InstaAccessFlashclub.Debug.entitlements; path = InstaAccess/InstaAccessFlashclub.Debug.entitlements; sourceTree = "<group>"; };
+		FA520D3B26F89AAB002677D3 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
+		FA520D4526F89B2A002677D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA74B060260A00FB007344D6 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		FADE982226FAFC30001FA7C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAF50E6826D4C0E20097F85E /* RNSVG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSVG.xcodeproj; path = "../node_modules/react-native-svg/apple/RNSVG.xcodeproj"; sourceTree = "<group>"; };
+		FC74DEB995BB43528FE8F2E7 /* Radomir Tinkov - Gilroy-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Radomir Tinkov - Gilroy-Bold.otf"; path = "../assets/fonts/Radomir Tinkov - Gilroy-Bold.otf"; sourceTree = "<group>"; };
+		FE23CF28E4305786F857AD28 /* Pods-InstaAccess.flashclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAccess.flashclub.release.xcconfig"; path = "Target Support Files/Pods-InstaAccess/Pods-InstaAccess.flashclub.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3E927F7C4DF99C1619FE21 /* libPods-InstaAccess-InstaAccessTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8504E6192D3037A2EDE472B4 /* libPods-InstaAccess.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA8C4D8AF6346DF68FD83B6 /* libPods-InstaAccess-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899109D00503BAA0692BC21B /* libPods-InstaAccess-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* InstaAccessTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* InstaAccessTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = InstaAccessTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* InstaAccess */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D24FA2715B787001F7D69 /* InstaAccessFlashclub.Debug.entitlements */,
+				FA3D24EF27157926001F7D69 /* InstaAccessDebug.entitlements */,
+				FA520D4526F89B2A002677D3 /* GoogleService-Info.plist */,
+				FADE982226FAFC30001FA7C1 /* GoogleService-Info.plist */,
+				FA520D3B26F89AAB002677D3 /* ios */,
+				FA1B58612551222700FAFABD /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				FA1B598A2551459700FAFABD /* Instaccess.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = InstaAccess;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				F4B9F5A77A1BF3F4A3EF2611 /* libPods-InstaAccess.a */,
+				431CD008D45F79296501BF0B /* libPods-InstaAccess-InstaAccessTests.a */,
+				B097AEBC733336B05C0C0443 /* libPods-InstaAccess-tvOS.a */,
+				341877BA57B05682E673169E /* libPods-InstaAccess-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6876DFCCBC4145F38B64CC84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CFED41B5BFE4997B76E3284 /* AntDesign.ttf */,
+				C4E0156EB6EF4BD0B448DCFD /* Entypo.ttf */,
+				94D559A678E34E1A991B0C72 /* EvilIcons.ttf */,
+				7B313FF4E5F54C3E9DE37AF7 /* Feather.ttf */,
+				4F6AD0770DC942D1BD867626 /* FontAwesome.ttf */,
+				A04AB969A2524424A57B45BD /* FontAwesome5_Brands.ttf */,
+				40C9E3001AEF4556AE1214C6 /* FontAwesome5_Regular.ttf */,
+				1C918DB347D24B82988624FE /* FontAwesome5_Solid.ttf */,
+				79B645B9BE234F82BD8D059C /* Fontisto.ttf */,
+				0A2A4E3A4BBE49528E4865A8 /* Foundation.ttf */,
+				DDDBCA422CD24AFC914C9F83 /* Ionicons.ttf */,
+				DECB1B3646804C56866FE0A4 /* MaterialCommunityIcons.ttf */,
+				97D536D33F514AC3A4643A7B /* MaterialIcons.ttf */,
+				07E5D1F3A4064EC89B079049 /* Octicons.ttf */,
+				3CEED2FA3D54489EA67DB08D /* SimpleLineIcons.ttf */,
+				E180BFE985B84F5DB9657F60 /* Zocial.ttf */,
+				278DC99E3ABA47AC87134EC1 /* CircularStd-Black.otf */,
+				1731B001416143D288C8D0BC /* CircularStd-BlackItalic.otf */,
+				662917D068C447D8A872D6BD /* CircularStd-Bold.otf */,
+				1231AD47ABEB4530A9A3AA3E /* CircularStd-BoldItalic.otf */,
+				6AE32D62261D403BB4041017 /* CircularStd-Book.otf */,
+				B036EAC079E2469CAF71188C /* CircularStd-BookItalic.otf */,
+				8D6289BC141E445F894FE68A /* CircularStd-Medium.otf */,
+				8F2D2473AF18425884F28276 /* CircularStd-MediumItalic.otf */,
+				225EEADA12B648F2993CF794 /* Radomir Tinkov - Gilroy-Black.otf */,
+				BB8D75BC526A4F9CB423B890 /* Radomir Tinkov - Gilroy-BlackItalic.otf */,
+				FC74DEB995BB43528FE8F2E7 /* Radomir Tinkov - Gilroy-Bold.otf */,
+				77CD727D46F3486DB437BA96 /* Radomir Tinkov - Gilroy-BoldItalic.otf */,
+				23629491D6564254A3FE84CE /* Radomir Tinkov - Gilroy-ExtraBold.otf */,
+				7F482A75F988497696DA3941 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */,
+				5F4346EAAE86410094222C13 /* Radomir Tinkov - Gilroy-Heavy.otf */,
+				591D0D8F24AA4541A6D586C4 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */,
+				D8EF14DF783B4102809C1A62 /* Radomir Tinkov - Gilroy-Light.otf */,
+				876827E09347460DB8B55FED /* Radomir Tinkov - Gilroy-LightItalic.otf */,
+				719B7F32629F47EB873B4E0E /* Radomir Tinkov - Gilroy-Medium.otf */,
+				F2827B00B94942D7B7976809 /* Radomir Tinkov - Gilroy-MediumItalic.otf */,
+				CAF5A64D698D40608BC47638 /* Radomir Tinkov - Gilroy-Regular.otf */,
+				E99B067D623D4532BEEA7403 /* Radomir Tinkov - Gilroy-RegularItalic.otf */,
+				56B3FE80CF754EFF8F638DF0 /* Radomir Tinkov - Gilroy-SemiBold.otf */,
+				3007A0E155BD44DAB4D10037 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */,
+				067ED648175B4E3F99105146 /* Radomir Tinkov - Gilroy-Thin.otf */,
+				9DDCCBB169A648A6B1E7DC6A /* Radomir Tinkov - Gilroy-ThinItalic.otf */,
+				9627E6A5DBD94E229748B2CC /* Radomir Tinkov - Gilroy-UltraLight.otf */,
+				97F6B33A20C049E49BEB3312 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D24F427158C94001F7D69 /* Symbolication.js */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				FA74B060260A00FB007344D6 /* fonts */,
+				FA11427E2609EEE30014FF2B /* CircularStd-Black.otf */,
+				FA1142652609EEE10014FF2B /* CircularStd-BlackItalic.otf */,
+				FA1142722609EEE20014FF2B /* CircularStd-Bold.otf */,
+				FA1142702609EEE20014FF2B /* CircularStd-BoldItalic.otf */,
+				FA1142692609EEE10014FF2B /* CircularStd-Book.otf */,
+				FA1142782609EEE30014FF2B /* CircularStd-BookItalic.otf */,
+				FA1142662609EEE10014FF2B /* CircularStd-Medium.otf */,
+				FA1142682609EEE10014FF2B /* CircularStd-MediumItalic.otf */,
+				FA11426B2609EEE10014FF2B /* Radomir Tinkov - Gilroy-Black.otf */,
+				FA11426E2609EEE20014FF2B /* Radomir Tinkov - Gilroy-BlackItalic.otf */,
+				FA1142742609EEE20014FF2B /* Radomir Tinkov - Gilroy-Bold.otf */,
+				FA11427B2609EEE30014FF2B /* Radomir Tinkov - Gilroy-BoldItalic.otf */,
+				FA1142732609EEE20014FF2B /* Radomir Tinkov - Gilroy-ExtraBold.otf */,
+				FA1142632609EEE10014FF2B /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */,
+				FA1142752609EEE20014FF2B /* Radomir Tinkov - Gilroy-Heavy.otf */,
+				FA1142792609EEE30014FF2B /* Radomir Tinkov - Gilroy-HeavyItalic.otf */,
+				FA11426A2609EEE10014FF2B /* Radomir Tinkov - Gilroy-Light.otf */,
+				FA1142642609EEE10014FF2B /* Radomir Tinkov - Gilroy-LightItalic.otf */,
+				FA11427A2609EEE30014FF2B /* Radomir Tinkov - Gilroy-Medium.otf */,
+				FA11427D2609EEE30014FF2B /* Radomir Tinkov - Gilroy-MediumItalic.otf */,
+				FA1142762609EEE20014FF2B /* Radomir Tinkov - Gilroy-Regular.otf */,
+				FA11426C2609EEE20014FF2B /* Radomir Tinkov - Gilroy-RegularItalic.otf */,
+				FA1142672609EEE10014FF2B /* Radomir Tinkov - Gilroy-SemiBold.otf */,
+				FA11426F2609EEE20014FF2B /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */,
+				FA1142772609EEE30014FF2B /* Radomir Tinkov - Gilroy-Thin.otf */,
+				FA1142712609EEE20014FF2B /* Radomir Tinkov - Gilroy-ThinItalic.otf */,
+				FA11427C2609EEE30014FF2B /* Radomir Tinkov - Gilroy-UltraLight.otf */,
+				FA11426D2609EEE20014FF2B /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */,
+				13B07FAE1A68108700A75B9A /* InstaAccess */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* InstaAccessTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E2376F9F212970FDFDF4ED43 /* Pods */,
+				6876DFCCBC4145F38B64CC84 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Instaccess.app */,
+				00E356EE1AD99517003FC87E /* InstaAccessTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* InstaAccess-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* InstaAccess-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2376F9F212970FDFDF4ED43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85CA44E5AF7858E08523F4D /* Pods-InstaAccess.debug.xcconfig */,
+				C5B61C2F7E36C7EBC9646942 /* Pods-InstaAccess.flashclub.debug.xcconfig */,
+				8C3A334C0696258743A7326E /* Pods-InstaAccess.release.xcconfig */,
+				FE23CF28E4305786F857AD28 /* Pods-InstaAccess.flashclub.release.xcconfig */,
+				F0D3ED6A6027D1ADF74A0D20 /* Pods-InstaAccess-InstaAccessTests.debug.xcconfig */,
+				EFA57B23688C16C361B999EA /* Pods-InstaAccess-InstaAccessTests.flashclub.debug.xcconfig */,
+				AC9A26EF01863353C20C5FC1 /* Pods-InstaAccess-InstaAccessTests.release.xcconfig */,
+				B8D73B33ADDA9AC9E96ECC7A /* Pods-InstaAccess-InstaAccessTests.flashclub.release.xcconfig */,
+				1B555624FF80BA81A8BA03CC /* Pods-InstaAccess-tvOS.debug.xcconfig */,
+				8C5ED71FA2AC72B5C67BCAB8 /* Pods-InstaAccess-tvOS.flashclub.debug.xcconfig */,
+				63680781B827F52B5D24E3D4 /* Pods-InstaAccess-tvOS.release.xcconfig */,
+				36F0CC8E605704D040926549 /* Pods-InstaAccess-tvOS.flashclub.release.xcconfig */,
+				099731ECE298FE00369A6FDB /* Pods-InstaAccess-tvOSTests.debug.xcconfig */,
+				79EC47B6AA6DCEFACA7DA287 /* Pods-InstaAccess-tvOSTests.flashclub.debug.xcconfig */,
+				209EA7480E1095BECB96EAAE /* Pods-InstaAccess-tvOSTests.release.xcconfig */,
+				7FC7882C28FC538EA169277E /* Pods-InstaAccess-tvOSTests.flashclub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAF50E6926D4C0E20097F85E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA520D3F26F89AAB002677D3 /* libRNSVG.a */,
+				FAF50E7026D4C0E20097F85E /* libRNSVG-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* InstaAccessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InstaAccessTests" */;
+			buildPhases = (
+				D958B3B31E3948378456139B /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				4EBF81CCB721C9BDBBC0700F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = InstaAccessTests;
+			productName = InstaAccessTests;
+			productReference = 00E356EE1AD99517003FC87E /* InstaAccessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* InstaAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "InstaAccess" */;
+			buildPhases = (
+				449A6B12A7240664B85FE77F /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				38E9A5BBA85BD42DA30ADB38 /* [CP] Copy Pods Resources */,
+				6FC4EF8E34D1F9D333699278 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaAccess;
+			productName = InstaAccess;
+			productReference = 13B07F961A680F5B00A75B9A /* Instaccess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* InstaAccess-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InstaAccess-tvOS" */;
+			buildPhases = (
+				B65A314209F25A7DA0A510E0 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InstaAccess-tvOS";
+			productName = "InstaAccess-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* InstaAccess-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* InstaAccess-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InstaAccess-tvOSTests" */;
+			buildPhases = (
+				5E8732F145E4F244CA2B0E51 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "InstaAccess-tvOSTests";
+			productName = "InstaAccess-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* InstaAccess-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M6YHJDJ6US;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = M6YHJDJ6US;
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M6YHJDJ6US;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M6YHJDJ6US;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "InstaAccess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAF50E6926D4C0E20097F85E /* Products */;
+					ProjectRef = FAF50E6826D4C0E20097F85E /* RNSVG.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* InstaAccess */,
+				00E356ED1AD99517003FC87E /* InstaAccessTests */,
+				2D02E47A1E0B4A5D006451C7 /* InstaAccess-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* InstaAccess-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA520D3F26F89AAB002677D3 /* libRNSVG.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSVG.a;
+			remoteRef = FA520D3E26F89AAB002677D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FAF50E7026D4C0E20097F85E /* libRNSVG-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNSVG-tvOS.a";
+			remoteRef = FAF50E6F26D4C0E20097F85E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA958BF227D23E81005AFFD4 /* main.jsbundle in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FA74B061260A00FB007344D6 /* fonts in Resources */,
+				6AAD4BBFC5AC4CBA8518D3F1 /* CircularStd-Black.otf in Resources */,
+				4AFBC99F7D414B40A5063541 /* CircularStd-BlackItalic.otf in Resources */,
+				11FEB18D24884325AFC2ECAF /* CircularStd-Bold.otf in Resources */,
+				9BDF3C14C1BF44E19C5A4C80 /* CircularStd-BoldItalic.otf in Resources */,
+				9900B75F89534498B9436380 /* CircularStd-Book.otf in Resources */,
+				E7D31D8F0D8C442685054456 /* CircularStd-BookItalic.otf in Resources */,
+				AF2F95F7B9A842F69AA6C416 /* CircularStd-Medium.otf in Resources */,
+				E71D967FA20B40B9AB8BF9D4 /* CircularStd-MediumItalic.otf in Resources */,
+				DE7FCA0C4EC1470989A53D34 /* Radomir Tinkov - Gilroy-Black.otf in Resources */,
+				A47745EEDE554B0B89DE5982 /* Radomir Tinkov - Gilroy-BlackItalic.otf in Resources */,
+				FA3D24F727158C95001F7D69 /* Symbolication.js in Resources */,
+				93C18A6E5A6E4BA0B6E34225 /* Radomir Tinkov - Gilroy-Bold.otf in Resources */,
+				4EC4AF0B37054432AF83F0B0 /* Radomir Tinkov - Gilroy-BoldItalic.otf in Resources */,
+				69BF4581EEAA488482E757B4 /* Radomir Tinkov - Gilroy-ExtraBold.otf in Resources */,
+				5541BFEF995A482EACAA0007 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf in Resources */,
+				9F0E36E4A50D4185B388DB04 /* Radomir Tinkov - Gilroy-Heavy.otf in Resources */,
+				135695F758D243EA9BAF45B5 /* Radomir Tinkov - Gilroy-HeavyItalic.otf in Resources */,
+				C30D8A12594749FDB1C8EA7B /* Radomir Tinkov - Gilroy-Light.otf in Resources */,
+				AE7F26F8220D458B98810DBC /* Radomir Tinkov - Gilroy-LightItalic.otf in Resources */,
+				1E31C42502BC42F88EC9E1C0 /* Radomir Tinkov - Gilroy-Medium.otf in Resources */,
+				EEDA9DB4762948D5837DDD01 /* Radomir Tinkov - Gilroy-MediumItalic.otf in Resources */,
+				7E66BFD37C284BBC8731622F /* Radomir Tinkov - Gilroy-Regular.otf in Resources */,
+				CF74157A27644163AB9CF26A /* Radomir Tinkov - Gilroy-RegularItalic.otf in Resources */,
+				FADE982326FAFC30001FA7C1 /* GoogleService-Info.plist in Resources */,
+				6E083F11C9F14656A3BB1F83 /* Radomir Tinkov - Gilroy-SemiBold.otf in Resources */,
+				8AB0A0F630C340CDB5998092 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf in Resources */,
+				4490603F75814873AD01081C /* Radomir Tinkov - Gilroy-Thin.otf in Resources */,
+				D90924C9EE4B45159B94B8FF /* Radomir Tinkov - Gilroy-ThinItalic.otf in Resources */,
+				0392E63450B44ED8A298363E /* Radomir Tinkov - Gilroy-UltraLight.otf in Resources */,
+				5B1D9D2BCD0D4DB294C87395 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BI\tNARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		38E9A5BBA85BD42DA30ADB38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaAccess/Pods-InstaAccess-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaAccess/Pods-InstaAccess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		449A6B12A7240664B85FE77F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaAccess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBF81CCB721C9BDBBC0700F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaAccess-InstaAccessTests/Pods-InstaAccess-InstaAccessTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaAccess-InstaAccessTests/Pods-InstaAccess-InstaAccessTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8732F145E4F244CA2B0E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaAccess-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC4EF8E34D1F9D333699278 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes usful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"firebase_crashlytics_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally \n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n\n";
+		};
+		B65A314209F25A7DA0A510E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaAccess-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D958B3B31E3948378456139B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaAccess-InstaAccessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* InstaAccessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* InstaAccessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* InstaAccess */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* InstaAccess-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D3ED6A6027D1ADF74A0D20 /* Pods-InstaAccess-InstaAccessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess.app/InstaAccess";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9A26EF01863353C20C5FC1 /* Pods-InstaAccess-InstaAccessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess.app/InstaAccess";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85CA44E5AF7858E08523F4D /* Pods-InstaAccess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.flash;
+				BUNDLE_ID_SUFFIX = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = InstaAccess/InstaAccessDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CURRENT_PROJECT_VERSION = 1.51;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Insta Access";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.6;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-.flash";
+				PRODUCT_NAME = Instaccess;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3A334C0696258743A7326E /* Pods-InstaAccess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.flash;
+				BUNDLE_ID_SUFFIX = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = InstaAccess/Instaccess.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CURRENT_PROJECT_VERSION = 1.51;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Insta Access";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-.flash";
+				PRODUCT_NAME = Instaccess;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B555624FF80BA81A8BA03CC /* Pods-InstaAccess-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63680781B827F52B5D24E3D4 /* Pods-InstaAccess-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099731ECE298FE00369A6FDB /* Pods-InstaAccess-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.InstaAccess-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess-tvOS.app/InstaAccess-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209EA7480E1095BECB96EAAE /* Pods-InstaAccess-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.InstaAccess-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess-tvOS.app/InstaAccess-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC2AFFA256696A800EB2150 /* Flashclub.Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Flashclub.Debug;
+		};
+		FAC2AFFB256696A800EB2150 /* Flashclub.Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B61C2F7E36C7EBC9646942 /* Pods-InstaAccess.flashclub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.flash;
+				BUNDLE_ID_SUFFIX = .flash;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = InstaAccess/InstaAccessFlashclub.Debug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CURRENT_PROJECT_VERSION = 1.51;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Insta Access";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.6;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-.flash";
+				PRODUCT_NAME = "Flash Club";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Flashclub.Debug;
+		};
+		FAC2AFFC256696A800EB2150 /* Flashclub.Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA57B23688C16C361B999EA /* Pods-InstaAccess-InstaAccessTests.flashclub.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess.app/InstaAccess";
+			};
+			name = Flashclub.Debug;
+		};
+		FAC2AFFD256696A800EB2150 /* Flashclub.Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5ED71FA2AC72B5C67BCAB8 /* Pods-InstaAccess-tvOS.flashclub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Flashclub.Debug;
+		};
+		FAC2AFFE256696A800EB2150 /* Flashclub.Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EC47B6AA6DCEFACA7DA287 /* Pods-InstaAccess-tvOSTests.flashclub.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.InstaAccess-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess-tvOS.app/InstaAccess-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Flashclub.Debug;
+		};
+		FAC2AFFF256696C300EB2150 /* Flashclub.Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Flashclub.Release;
+		};
+		FAC2B000256696C300EB2150 /* Flashclub.Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE23CF28E4305786F857AD28 /* Pods-InstaAccess.flashclub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.flash;
+				BUNDLE_ID_SUFFIX = .flash;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = InstaAccess/Instaccess.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CURRENT_PROJECT_VERSION = 1.51;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Insta Access";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-.flash";
+				PRODUCT_NAME = "Flash Club";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Flashclub.Release;
+		};
+		FAC2B001256696C300EB2150 /* Flashclub.Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D73B33ADDA9AC9E96ECC7A /* Pods-InstaAccess-InstaAccessTests.flashclub.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = InstaAccessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess.app/InstaAccess";
+			};
+			name = Flashclub.Release;
+		};
+		FAC2B002256696C300EB2150 /* Flashclub.Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F0CC8E605704D040926549 /* Pods-InstaAccess-tvOS.flashclub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamrun.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Flashclub.Release;
+		};
+		FAC2B003256696C300EB2150 /* Flashclub.Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC7882C28FC538EA169277E /* Pods-InstaAccess-tvOSTests.flashclub.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M6YHJDJ6US;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "InstaAccess-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.InstaAccess-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaAccess-tvOS.app/InstaAccess-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Flashclub.Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InstaAccessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				FAC2AFFC256696A800EB2150 /* Flashclub.Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+				FAC2B001256696C300EB2150 /* Flashclub.Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "InstaAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				FAC2AFFB256696A800EB2150 /* Flashclub.Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				FAC2B000256696C300EB2150 /* Flashclub.Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InstaAccess-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				FAC2AFFD256696A800EB2150 /* Flashclub.Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+				FAC2B002256696C300EB2150 /* Flashclub.Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InstaAccess-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				FAC2AFFE256696A800EB2150 /* Flashclub.Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+				FAC2B003256696C300EB2150 /* Flashclub.Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "InstaAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				FAC2AFFA256696A800EB2150 /* Flashclub.Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				FAC2AFFF256696C300EB2150 /* Flashclub.Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

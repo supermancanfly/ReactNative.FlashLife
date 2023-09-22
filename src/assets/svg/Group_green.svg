@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Group_5211" data-name="Group 5211" transform="translate(0.08 0.479)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(-0.08 -0.479)" fill="#fff" stroke="#8bd41f" stroke-width="4">
+      <circle cx="33" cy="33" r="33" stroke="none"/>
+      <circle cx="33" cy="33" r="31" fill="none"/>
+    </g>
+    <path id="chevron-back-sharp" d="M9.981,0,0,9.981l9.981,9.981" transform="translate(22.233 38.407) rotate(-90)" fill="none" stroke="#8bd41f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>
